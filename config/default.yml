@@ -1,2 +1,11 @@
 host: 0.0.0.0
 port: 3000
+
+postgresConfiguration:
+  type: postgres
+  host: localhost
+  port: 5432
+  username: postgres
+  password: root
+  database: skeleton-app
+  synchronize: true
