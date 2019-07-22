@@ -3,7 +3,7 @@ import { UserService } from './user.service';
 import { User } from './user.entity';
 import { UserDto } from './user.dto';
 import { ApiCreatedResponse, ApiNotFoundResponse, ApiOkResponse, ApiUseTags } from '@nestjs/swagger';
-import { SuccessResponse, ErrorResponse } from 'src/shared/responses';
+import { SuccessResponse, ErrorResponse } from '../shared/responses';
 
 @Controller('user')
 @ApiUseTags('Users')
