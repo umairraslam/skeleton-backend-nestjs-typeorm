@@ -2,7 +2,7 @@
   "name": "nestjs-typeorm-skeleton",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "umair.aslam",
   "license": "MIT",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
